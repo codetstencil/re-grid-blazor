@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -6,7 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-BlazorApp9-6d253c43-351a-4d8b-9311-2e6e2de714ea</UserSecretsId>
   </PropertyGroup>
-
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.8.0" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlazorApp9.Client\BlazorApp9.Client.csproj" />
     <PackageReference Include="GridBlazor" Version="5.0.1" />
