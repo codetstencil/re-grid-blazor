@@ -11,6 +11,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BlazorApp9.Client\BlazorApp9.Client.csproj" />
+    <ProjectReference Include="..\GridSharedData\GridSharedData.csproj" />
     <PackageReference Include="GridBlazor" Version="5.0.1" />
     <PackageReference Include="GridCore" Version="7.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.0" />

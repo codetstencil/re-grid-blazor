@@ -1,11 +1,9 @@
-using GridBlazorServerSide.Data;
+using BlazorApp9.Data;
 using GridShared;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Linq;
-using BlazorApp9.Data;
 
-namespace GridBlazorServerSide.Services
+
+namespace BlazorApp9.Services
 {
     public class ProductService : IProductService
     {

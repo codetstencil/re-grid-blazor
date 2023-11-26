@@ -1,15 +1,11 @@
-﻿using GridBlazorServerSide.Models;
+﻿using BlazorApp9.Models;
 using GridCore.Server;
 using GridShared;
 using GridShared.Utility;
 using Microsoft.Extensions.Primitives;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using BlazorApp9.Models;
 
-namespace GridBlazorServerSide.Services
+
+namespace BlazorApp9.Services
 {
     public class OrderDetailMemoryService : IMemoryDataService<OrderDetail>
     {
